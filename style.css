@@ -1,0 +1,341 @@
+body {
+    margin: 0;
+    font:normal 75% 'Montserrat', sans-serif;
+    height: 90vh;
+  }
+  
+  canvas {
+    display: block;
+    vertical-align: bottom;
+  }
+  
+  /* ---- particles.js container ---- */
+  
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  /* ---- stats.js ---- */
+  
+  .count-particles{
+    background: #000022;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 80px;
+    color: #13E8E9;
+    font-size: .8em;
+    text-align: left;
+    text-indent: 4px;
+    line-height: 14px;
+    padding-bottom: 2px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+  }
+  
+  .js-count-particles{
+    font-size: 1.1em;
+  }
+  
+  #stats,
+  .count-particles{
+    -webkit-user-select: none;
+  }
+  
+  #stats{
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+  }
+  
+  .count-particles{
+    border-radius: 0 0 3px 3px;
+  }
+
+  #particles-js {
+    z-index: -10;
+  }
+  h1, h2, h3 {
+    color: #F582A7;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .color {
+    color: #F582A7;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  #hello {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+  }
+  h2 {
+    margin-top: px;
+    margin: 50px;
+  }
+  h1 {
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  #projects {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    background-color: #FFABE1;
+    margin-top: 190px;
+    font-size: 30px;
+  }
+.images {
+  margin: 15px;
+  display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ background-color: #000022;
+}
+img {
+  margin: 30px;
+}
+.skill {
+  color: white;
+}
+.skills {
+  background-color: #000022;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+}
+
+#skills {
+  background-color: #000022;
+  height: 40vh;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+#certificate {
+  background-color: #000022;
+  height: 60vh;
+  margin-top: 10px;
+  
+}
+
+.certificate  {
+  display: flex;
+  justify-content: center;
+}
+.skill {
+  margin-top: 10px;
+}
+.pi {
+  color: white;
+  margin-left: 30px;
+  font-size: 30px;
+
+}
+.p {
+  color: white;
+  margin-top: 30px;
+  font-size: 20px;
+  margin-left: 30px;
+
+}
+#head {
+  margin-top: 20px;
+}
+
+img {
+  margin-top: 50px;
+}
+.iterm {
+  display: flex;
+ flex-direction: column;
+}
+.one {
+  margin-left: 50px;
+}
+
+.mail {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  margin-left: 40px;
+}
+.e {
+  margin-left: 60px;
+}
+
+button {
+  width: 70vh;
+  border-radius: 20px;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 10px;
+}
+.contact {
+  background-color: #000022;
+  height: 120vh;
+  margin-top: 50px;
+  display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+#contact {
+  color: white;
+  margin-top: 5px;
+}
+.text {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+#wh {
+  border-radius: 90px;
+  margin-left: 70px;
+}
+.x {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.photo {
+  display: flex;
+  justify-content: center;
+}
+img {
+  border-radius: 30px;
+}
+#card {
+  margin: 20px;
+  position: relative;
+  z-index: 0;
+}
+.upper-box {
+  position: absolute;
+  bottom: 0px;
+  width: 420px;
+  height: 330px;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 30px;
+  opacity: 0;
+  border-radius: 30px;
+}
+.title {
+  margin-top: 20px;
+  background: #cbc4c6;
+  padding: 5px 15px;
+  font-size: 21px;
+  color: #00122c;
+  letter-spacing: 1px;
+  font-weight: 600;
+  text-align: center;
+}
+.par-designation {
+  color: #cbc4c6;
+  font-size: 17px;
+  letter-spacing: 1px;
+  text-align: center;
+  width: 350px;
+  padding: 0 10px;
+}
+.upper-box a {
+  cursor: pointer;
+}
+.btn-website {
+  margin-top: 60px;
+  padding: 5px 20px;
+  font-size: 20px;
+  border: 3px solid #ca4040;
+  background: transparent;
+  color: #cbc4c6;
+  transition: all .7s;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  cursor: pointer;
+  text-align: center;
+  width: 30vh;
+} 
+.btn-website:hover {
+  background: #ca4040;
+  color: #cbc4c6;
+}
+@media all and (max-width: 500px) {
+  #mainPhoto {
+    width: 100px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  #head {
+    font-size: 20px;
+  }
+  img {
+      width: 200px;
+      height: 200px;
+  }
+h3 {
+  margin-left: 50px;
+}
+#last {
+  width: 50px;
+  height: 50px;
+}
+.pi {
+  font-size: 10px;
+}
+#skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+.p {
+  font-size: 15px;
+  margin-left: 50px;
+}
+.phone {
+  margin-left: 5px;
+}
+#post {
+  margin-left: 5px;
+}
+.contact {
+  height: 90vh;
+}
+#wh {
+  width: 30px;
+  height: 30px;
+}
+.mail {
+  font-size: 15px;
+}
+.text {
+  font-size: 10px;
+}
+.app {
+  margin-right: 80px;
+}
+.upper-box {
+  width: 100px;
+  height: 100px;
+  
+}
+}
+
+@media all and (max-width: 360px) {
+  .contact {
+    height: 110vh;
+  }
+ #five {
+   margin-left: 20px;
+ }
+
+}
